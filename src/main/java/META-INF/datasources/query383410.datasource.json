@@ -1,0 +1,83 @@
+{
+  "customId": "romano",
+  "queryName": "romano",
+  "sourceType": "entityFullName",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": "RoleSecurable",
+  "entityFullName": "app.entity.RoleSecurable",
+  "query": {
+    "isValid": true,
+    "rulesEntity": [
+      {
+        "entity": "RoleSecurable",
+        "alias": "r",
+        "namespace": "app.entity.RoleSecurable"
+      }
+    ],
+    "rulesSelect": [
+      {
+        "func": "get",
+        "field": "r"
+      }
+    ],
+    "rulesGroupBy": [],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rules": {
+      "condition": "AND",
+      "not": false,
+      "valid": true,
+      "rules": []
+    }
+  },
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "id": null,
+    "role": null,
+    "securable": null
+  },
+  "defaultValuesProperties": {
+    "id": null,
+    "role": null,
+    "securable": null
+  },
+  "security": {
+    "id": null,
+    "role": null,
+    "securable": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query383410/",
+  "audit": false
+}
