@@ -1,0 +1,113 @@
+{
+  "audit": false,
+  "baseEntity": null,
+  "blockly": null,
+  "calcFields": {},
+  "calcFieldsProperties": {},
+  "calcFieldsSecurity": {},
+  "customId": "NegocinhoDoPai",
+  "defaultValues": {
+    "affectedFields": null,
+    "agent": null,
+    "application": null,
+    "category": null,
+    "command": null,
+    "date": null,
+    "error": null,
+    "host": null,
+    "id": null,
+    "objectData": null,
+    "server": null,
+    "type": null,
+    "user": null
+  },
+  "defaultValuesProperties": {
+    "affectedFields": null,
+    "agent": null,
+    "application": null,
+    "category": null,
+    "command": null,
+    "date": null,
+    "error": null,
+    "host": null,
+    "id": null,
+    "objectData": null,
+    "server": null,
+    "type": null,
+    "user": null
+  },
+  "entityFullName": "app.entity.AuditLog",
+  "entitySimpleName": "AuditLog",
+  "errorHandles": {
+    "foreignKey": null,
+    "primaryKey": null
+  },
+  "events": {
+    "afterDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "beforeDelete": null,
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "onError": null,
+    "onNavigate": null
+  },
+  "query": {
+    "isValid": true,
+    "rules": {
+      "condition": "AND",
+      "not": false,
+      "rules": [],
+      "valid": true
+    },
+    "rulesEntity": [
+      {
+        "alias": "a",
+        "entity": "AuditLog",
+        "namespace": "app.entity.AuditLog"
+      }
+    ],
+    "rulesGroupBy": [],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rulesSelect": [
+      {
+        "field": "a",
+        "func": "get"
+      }
+    ]
+  },
+  "queryName": "NegocinhoDoPai",
+  "queryParamsValues": [],
+  "security": {
+    "affectedFields": null,
+    "agent": null,
+    "application": null,
+    "category": null,
+    "command": null,
+    "date": null,
+    "error": null,
+    "host": null,
+    "id": null,
+    "objectData": null,
+    "server": null,
+    "type": null,
+    "user": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query741739/",
+  "sourceType": "entityFullName",
+  "verbs": {
+    "COUNT": true,
+    "COUNTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null
+  }
+}
